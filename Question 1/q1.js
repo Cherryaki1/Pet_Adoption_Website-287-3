@@ -8,10 +8,6 @@ function findSummation(N) {
     return sum;
 }
 
-function test() {
-    alert("Hello World");
-}
-
 // function uppercaseFirstandLast(String) {
 //     let String = document.getElementById("uppercaseFL").value;
 //     let first = String.charAt(0).toUpperCase() + String.slice(1, -1);
