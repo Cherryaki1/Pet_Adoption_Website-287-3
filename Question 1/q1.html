@@ -7,12 +7,23 @@
 </head>
 <body>
 
-    <p>Please input an integer you want to sum:</p>
+    <h3>A Function: findSummation</h3>
     <form>
         <input type="number" id="N">
     </form>
     <button type="button" onclick="findSummation(parseInt(document.getElementById('N').value))">Compute Summation</button>
     
     <p id="summation"></p>
+
+    <h3>B Function: uppercaseFirstandLast</h3>
+    <p>Parameter(s): String</p>
+
+    <form>
+        <input type="text" id="string">
+    </form>
+
+    <button type="button" onclick="uppercaseFirstandLast(document.getElementById('string').value)">Compute Uppercase First and Last</button>
+    <p id="uppercaseFLresult"></p>
+    
 </body>
 </html>

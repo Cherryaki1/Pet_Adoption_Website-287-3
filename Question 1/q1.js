@@ -8,13 +8,19 @@ function findSummation(N) {
     return sum;
 }
 
-// function uppercaseFirstandLast(String) {
-//     let String = document.getElementById("uppercaseFL").value;
-//     let first = String.charAt(0).toUpperCase() + String.slice(1, -1);
-//     let last = String.slice(-1).toUpperCase();
-//     let result = first + last;
-//     document.getElementById("uppercaseFLresult").innerHTML = result;
-// }
+function uppercaseFirstandLast(String) {
+    String.split(" ");
+    for (let i = 0; i < String.length; i++) {
+        if (String[i] === " ") {
+            String = String.slice(0, i) + String.charAt(i + 1).toUpperCase() + String.slice(i + 2);
+            
+        }
+    }
+    // let first = String.charAt(0).toUpperCase() + String.slice(1, -1);
+    // let last = String.slice(-1).toUpperCase();
+    // let result = first + last;
+    document.getElementById("uppercaseFLresult").innerHTML = String;
+}
 
 // function findAverageAndMedian(numArray) {
 //     let numArray = document.getElementById("numArray").value;
