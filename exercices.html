@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 1</title>
+    <script type="text/javaScript" src="q1.js"></script>
+</head>
+<body>
+    
+    <h2>Exercices 1</h2>
+
+    <h3>A Function: findSummation</h3>
+    <p>Parameters(s): A positive integer number (default value is 1)</p>
+    <form action="/findSummation" method="post">
+        <input type="number" id="N" name="N" min="1">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="summation"></p>
+
+    <h3>B Function: uppercaseFirstandLast</h3>
+    <p>Parameters(s): String</p>
+    <form action="/uppercaseFirstandLast" method="post">
+        <input type="text" id="str" name="str">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="uppercaseFLresult"></p>
+
+    <h3>C Function: findAverageAndMedian</h3>
+    <p>Parameters(s): An array of numbers</p>
+    <form action="/findAverageAndMedian" method="post">
+        <input type="text" id="numArray" name="numArray">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="average"></p>
+    <p id="median"></p>
+
+    <h3>D Function: find4Digits</h3>
+    <p>Parameters(s): A string of numbers separated by spaces</p>
+    <form action="/find4Digits" method="post">
+        <input type="text" id="numStr" name="numStr">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="4digits"></p>
+
+    <h2>Exercice 3</h2>
+    <form action="/checkTelephoneNumber" method="post">
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name" name="name"></input>
+        <label for="phone">Enter your phone number (ddd-ddd-dddd): </label>
+        <input type="text" id="phone" name="phone"></input>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="validation"></p>
+</body>
+</html>
